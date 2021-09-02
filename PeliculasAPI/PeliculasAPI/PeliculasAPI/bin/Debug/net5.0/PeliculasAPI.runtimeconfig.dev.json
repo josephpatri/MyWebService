@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\odali\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\odali\\.nuget\\packages"
+    ]
+  }
+}
