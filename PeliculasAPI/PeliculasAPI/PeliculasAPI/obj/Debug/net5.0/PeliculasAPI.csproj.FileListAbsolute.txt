@@ -27,3 +27,10 @@ C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\P
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\ref\PeliculasAPI.dll
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\PeliculasAPI.pdb
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\PeliculasAPI.genruntimeconfig.cache
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
