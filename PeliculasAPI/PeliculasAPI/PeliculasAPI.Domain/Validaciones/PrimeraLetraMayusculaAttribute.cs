@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace PeliculasAPI.Validaciones
+namespace PeliculasAPI.Domain.Validaciones
 {
     public class PrimeraLetraMayusculaAttribute: ValidationAttribute
     {

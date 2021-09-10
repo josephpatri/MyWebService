@@ -1,0 +1,11 @@
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Data\bin\Debug\net5.0\PeliculasAPI.DistributedServices.deps.json
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Data\bin\Debug\net5.0\PeliculasAPI.DistributedServices.dll
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Data\bin\Debug\net5.0\ref\PeliculasAPI.DistributedServices.dll
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Data\bin\Debug\net5.0\PeliculasAPI.DistributedServices.pdb
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Data\obj\Debug\net5.0\PeliculasAPI.DistributedServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Data\obj\Debug\net5.0\PeliculasAPI.DistributedServices.AssemblyInfoInputs.cache
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Data\obj\Debug\net5.0\PeliculasAPI.DistributedServices.AssemblyInfo.cs
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Data\obj\Debug\net5.0\PeliculasAPI.DistributedServices.csproj.CoreCompileInputs.cache
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Data\obj\Debug\net5.0\PeliculasAPI.DistributedServices.dll
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Data\obj\Debug\net5.0\ref\PeliculasAPI.DistributedServices.dll
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Data\obj\Debug\net5.0\PeliculasAPI.DistributedServices.pdb

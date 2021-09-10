@@ -1,11 +1,11 @@
-﻿using PeliculasAPI.Validaciones;
+﻿using PeliculasAPI.Domain.Validaciones;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace PeliculasAPI.Entidades
+namespace PeliculasAPI.Domain.Entidades
 {
     public class Genero
     {

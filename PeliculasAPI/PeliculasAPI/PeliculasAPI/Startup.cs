@@ -1,15 +1,44 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using PeliculasAPI.Filtros;
+using PeliculasAPI.DistributedServices.APIBehavior;
+using PeliculasAPI.Domain;
+using PeliculasAPI.DistributedServices.Filtros;
+using PeliculasAPI.Domain.Repos.Interfaces;
+using PeliculasAPI.Domain.Repos.Impl.GeneroRepository;
+using PeliculasAPI.DistributedServices.Services.Inter;
+using PeliculasAPI.DistributedServices.Services.Impl;
 
 namespace PeliculasAPI
 {
+
+    public class AppConfig : IAppConfig
+    {
+        public IAppConfig.IConnectionStrings connectionStrings{ get; set; }        
+
+        public class ConnectionStrings : IAppConfig.IConnectionStrings
+        {
+            public string defaultConnection { get; set; }
+        }
+    }
+
+    public interface IAppConfig
+    {
+        IConnectionStrings connectionStrings { get; }
+
+        interface IConnectionStrings
+        {
+            string defaultConnection { get; }
+        }
+    }
+
+
+
     public class Startup
     {
         public Startup(IConfiguration configuration)
@@ -22,16 +51,24 @@ namespace PeliculasAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer();            
+            //var configuration = Configuration.Get<AppConfig>();                                    
+            services.AddDbContext<PeliculasAPIDbContext>(options => 
+                options.UseSqlServer(Configuration.GetConnectionString("defaultConnection")));
+
+            //Repos
+            services.AddScoped<IGeneroRepository, GeneroRepository>();
+            //Service
+            services.AddScoped<IGeneroService, GeneroService>();
+
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer();
             services.AddControllers(options =>
             {
                 options.Filters.Add(typeof(FiltroDeExcepcion));
-            });
+                options.Filters.Add(typeof(ParseBadRequest));
+            }).ConfigureApiBehaviorOptions(BehaviorBadRequest.Parse);
 
             services.AddCors(options =>
             {
-                //var frontendURL = Configuration.GetValue<string>("frontEnd_url");
-
                 string frontendURL = Configuration.GetSection("Logging:frontEnd_url").Get<string>();
 
                 options.AddDefaultPolicy(builder =>
@@ -48,8 +85,8 @@ namespace PeliculasAPI
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-        {
-            
+        {            
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
