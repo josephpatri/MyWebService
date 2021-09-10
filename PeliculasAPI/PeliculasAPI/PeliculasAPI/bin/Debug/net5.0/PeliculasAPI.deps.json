@@ -1579,7 +1579,8 @@
       },
       "PeliculasAPI.DistributedServices/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "PeliculasAPI.Domain": "1.0.0"
         },
         "runtime": {
           "PeliculasAPI.DistributedServices.dll": {}
@@ -1592,7 +1593,6 @@
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9",
-          "PeliculasAPI.DistributedServices": "1.0.0",
           "System.Diagnostics.Tools": "4.3.0"
         },
         "runtime": {
