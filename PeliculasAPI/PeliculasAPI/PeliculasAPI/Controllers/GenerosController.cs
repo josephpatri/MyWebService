@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using PeliculasAPI.DistributedServices.Services.Inter;
 using PeliculasAPI.Domain;
 using PeliculasAPI.Domain.Entidades;
+using PeliculasAPI.Domain.Entidades.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,29 +21,36 @@ namespace PeliculasAPI.Controllers
     {              
         private readonly ILogger<GenerosController> logger;
         private readonly IGeneroService generoService;
+        private readonly IMapper mapper;
 
-        public GenerosController(ILogger<GenerosController> logger, IGeneroService generoService)
+        public GenerosController(ILogger<GenerosController> logger, IGeneroService generoService,
+            IMapper mapper)
         {            
             this.logger = logger;
             this.generoService = generoService;
+            this.mapper = mapper;
         }
 
         [HttpGet] // api/generos
-        public async Task<ActionResult<List<Genero>>> Get()
+        public async Task<ActionResult<List<GeneroDTO>>> Get()
         {
-            return await generoService.GetAll();
+            var generos = await generoService.GetAll();
+            return mapper.Map<List<GeneroDTO>>(generos);
+
         }
 
         [HttpGet("{Id:int}")]
-        public async Task<ActionResult<Genero>> Get(int Id)
+        public async Task<ActionResult<GeneroDTO>> Get(int Id)
         {
-            return await generoService.GetById(Id);
+            var genero = await generoService.GetById(Id);
+            return mapper.Map<GeneroDTO>(genero);
         }
 
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] Genero genero)
+        public async Task<ActionResult> Post([FromBody] CreateGeneroDTO genero)
         {
-            await generoService.Insert(genero);                        
+            var generoCreateDTO = mapper.Map<Genero>(genero);
+            await generoService.Insert(generoCreateDTO);                        
             return NoContent();
         }
 
@@ -52,9 +61,9 @@ namespace PeliculasAPI.Controllers
         }
 
         [HttpDelete]
-        public async Task<ActionResult> Delete(int Id)
+        public async Task<ActionResult> Delete(GeneroDTO generoDelete)
         {
-            await generoService.Delete(Id);
+            await generoService.Delete(generoDelete.Id);
             return NoContent();
         }
 

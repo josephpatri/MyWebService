@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeliculasAPI", "PeliculasAP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeliculasAPI.Domain", "PeliculasAPI.Domain\PeliculasAPI.Domain.csproj", "{52C13D38-5E00-4672-BC41-E263A5D55F74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeliculasAPI.DistributedServices", "PeliculasAPI.Data\PeliculasAPI.DistributedServices.csproj", "{3A9AB993-5DDB-4905-99C3-4F4B6B5330C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeliculasAPI.DistributedServices", "PeliculasAPI.DistributedService\PeliculasAPI.DistributedServices.csproj", "{B006AEC4-86A4-4887-B953-E03A382E8B5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{52C13D38-5E00-4672-BC41-E263A5D55F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52C13D38-5E00-4672-BC41-E263A5D55F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52C13D38-5E00-4672-BC41-E263A5D55F74}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3A9AB993-5DDB-4905-99C3-4F4B6B5330C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3A9AB993-5DDB-4905-99C3-4F4B6B5330C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3A9AB993-5DDB-4905-99C3-4F4B6B5330C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3A9AB993-5DDB-4905-99C3-4F4B6B5330C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B006AEC4-86A4-4887-B953-E03A382E8B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B006AEC4-86A4-4887-B953-E03A382E8B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B006AEC4-86A4-4887-B953-E03A382E8B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B006AEC4-86A4-4887-B953-E03A382E8B5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

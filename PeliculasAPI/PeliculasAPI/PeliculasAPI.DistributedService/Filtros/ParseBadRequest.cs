@@ -12,7 +12,14 @@ namespace PeliculasAPI.DistributedServices.Filtros
     {
         public void OnActionExecuted(ActionExecutedContext context)
         {
-            var statusCode = (context.Result as IStatusCodeActionResult).StatusCode;
+            var castResult = context.Result as IStatusCodeActionResult;
+
+            if(castResult == null)
+            {
+                return;
+            }
+
+            var statusCode = castResult.StatusCode;
             if(statusCode.Equals(400))
             {
                 var response = new List<string>();
@@ -27,7 +34,7 @@ namespace PeliculasAPI.DistributedServices.Filtros
                     {
                         foreach (var error in context.ModelState[key].Errors)
                         {
-                            response.Add(error.ErrorMessage);
+                            response.Add($"{key}: {error.ErrorMessage}");
                         }
                     }
                 }

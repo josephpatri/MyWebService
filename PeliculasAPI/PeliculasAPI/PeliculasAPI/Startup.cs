@@ -51,7 +51,9 @@ namespace PeliculasAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //var configuration = Configuration.Get<AppConfig>();                                    
+            // Adding AutoMapper for my DTOs
+            services.AddAutoMapper(typeof(Startup));
+            // Adding my DbContext                                 
             services.AddDbContext<PeliculasAPIDbContext>(options => 
                 options.UseSqlServer(Configuration.GetConnectionString("defaultConnection")));
 

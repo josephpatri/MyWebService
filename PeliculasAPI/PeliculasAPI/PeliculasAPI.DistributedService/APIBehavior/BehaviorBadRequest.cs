@@ -18,7 +18,7 @@ namespace PeliculasAPI.DistributedServices.APIBehavior
                 {
                     foreach (var error in actionContext.ModelState[key].Errors)
                     {
-                        response.Add(error.ErrorMessage);
+                        response.Add($"{key}: {error.ErrorMessage}");
                     }
                 }
 

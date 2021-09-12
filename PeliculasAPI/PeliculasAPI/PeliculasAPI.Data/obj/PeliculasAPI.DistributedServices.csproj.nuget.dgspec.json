@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\odali\\source\\repos\\josephpatri\\MyWebService\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.DistributedService\\PeliculasAPI.DistributedServices.csproj": {}
+    "C:\\Users\\odali\\source\\repos\\josephpatri\\MyWebService\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.Data\\PeliculasAPI.DistributedServices.csproj": {}
   },
   "projects": {
-    "C:\\Users\\odali\\source\\repos\\josephpatri\\MyWebService\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.DistributedService\\PeliculasAPI.DistributedServices.csproj": {
+    "C:\\Users\\odali\\source\\repos\\josephpatri\\MyWebService\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.Data\\PeliculasAPI.DistributedServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\odali\\source\\repos\\josephpatri\\MyWebService\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.DistributedService\\PeliculasAPI.DistributedServices.csproj",
+        "projectUniqueName": "C:\\Users\\odali\\source\\repos\\josephpatri\\MyWebService\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.Data\\PeliculasAPI.DistributedServices.csproj",
         "projectName": "PeliculasAPI.DistributedServices",
-        "projectPath": "C:\\Users\\odali\\source\\repos\\josephpatri\\MyWebService\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.DistributedService\\PeliculasAPI.DistributedServices.csproj",
+        "projectPath": "C:\\Users\\odali\\source\\repos\\josephpatri\\MyWebService\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.Data\\PeliculasAPI.DistributedServices.csproj",
         "packagesPath": "C:\\Users\\odali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\odali\\source\\repos\\josephpatri\\MyWebService\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.DistributedService\\obj\\",
+        "outputPath": "C:\\Users\\odali\\source\\repos\\josephpatri\\MyWebService\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\odali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,10 +44,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[8.1.1, )"
-            },
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.2.5, )"

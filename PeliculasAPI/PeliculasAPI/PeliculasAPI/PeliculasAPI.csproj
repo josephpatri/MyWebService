@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.9">
@@ -16,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PeliculasAPI.Data\PeliculasAPI.DistributedServices.csproj" />
+    <ProjectReference Include="..\PeliculasAPI.DistributedService\PeliculasAPI.DistributedServices.csproj" />
     <ProjectReference Include="..\PeliculasAPI.Domain\PeliculasAPI.Domain.csproj" />
   </ItemGroup>
 

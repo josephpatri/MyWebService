@@ -66,3 +66,5 @@ C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\P
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\ref\PeliculasAPI.dll
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\PeliculasAPI.pdb
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\PeliculasAPI.genruntimeconfig.cache
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
