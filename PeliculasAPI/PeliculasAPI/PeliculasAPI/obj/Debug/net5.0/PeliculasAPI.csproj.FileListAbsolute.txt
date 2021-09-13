@@ -7,6 +7,8 @@ C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\P
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\PeliculasAPI.dll
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\ref\PeliculasAPI.dll
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\PeliculasAPI.pdb
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\Humanizer.dll
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
@@ -26,6 +28,8 @@ C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\P
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\Refit.dll
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\Refit.HttpClientFactory.dll
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -48,8 +52,10 @@ C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\P
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\PeliculasAPI.DistributedServices.dll
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\PeliculasAPI.Domain.dll
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\PeliculasAPI.ServiceInfo.dll
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\PeliculasAPI.DistributedServices.pdb
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\PeliculasAPI.Domain.pdb
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\PeliculasAPI.ServiceInfo.pdb
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\PeliculasAPI.csproj.AssemblyReference.cache
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\PeliculasAPI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\PeliculasAPI.AssemblyInfoInputs.cache
@@ -66,5 +72,3 @@ C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\P
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\ref\PeliculasAPI.dll
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\PeliculasAPI.pdb
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\PeliculasAPI.genruntimeconfig.cache
-C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\AutoMapper.dll
-C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

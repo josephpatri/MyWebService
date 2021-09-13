@@ -1,0 +1,12 @@
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.CrossCutting\bin\Debug\net5.0\PeliculasAPI.CrossCutting.deps.json
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.CrossCutting\bin\Debug\net5.0\PeliculasAPI.CrossCutting.dll
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.CrossCutting\bin\Debug\net5.0\ref\PeliculasAPI.CrossCutting.dll
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.CrossCutting\bin\Debug\net5.0\PeliculasAPI.CrossCutting.pdb
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.CrossCutting\obj\Debug\net5.0\PeliculasAPI.CrossCutting.csproj.AssemblyReference.cache
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.CrossCutting\obj\Debug\net5.0\PeliculasAPI.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.CrossCutting\obj\Debug\net5.0\PeliculasAPI.CrossCutting.AssemblyInfoInputs.cache
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.CrossCutting\obj\Debug\net5.0\PeliculasAPI.CrossCutting.AssemblyInfo.cs
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.CrossCutting\obj\Debug\net5.0\PeliculasAPI.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.CrossCutting\obj\Debug\net5.0\PeliculasAPI.CrossCutting.dll
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.CrossCutting\obj\Debug\net5.0\ref\PeliculasAPI.CrossCutting.dll
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.CrossCutting\obj\Debug\net5.0\PeliculasAPI.CrossCutting.pdb

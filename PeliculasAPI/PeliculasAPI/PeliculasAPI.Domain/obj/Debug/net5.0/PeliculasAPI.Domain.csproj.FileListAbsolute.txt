@@ -9,3 +9,4 @@ C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\P
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Domain\obj\Debug\net5.0\PeliculasAPI.Domain.dll
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Domain\obj\Debug\net5.0\ref\PeliculasAPI.Domain.dll
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Domain\obj\Debug\net5.0\PeliculasAPI.Domain.pdb
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Domain\obj\Debug\net5.0\PeliculasAPI.Domain.csproj.AssemblyReference.cache

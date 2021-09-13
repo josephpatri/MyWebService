@@ -13,6 +13,9 @@ using PeliculasAPI.Domain.Repos.Interfaces;
 using PeliculasAPI.Domain.Repos.Impl.GeneroRepository;
 using PeliculasAPI.DistributedServices.Services.Inter;
 using PeliculasAPI.DistributedServices.Services.Impl;
+using Refit;
+using PeliculasAPI.ServiceInfo;
+using System.Linq;
 
 namespace PeliculasAPI
 {
@@ -53,6 +56,9 @@ namespace PeliculasAPI
         {
             // Adding AutoMapper for my DTOs
             services.AddAutoMapper(typeof(Startup));
+
+            services.AddRefitClients();
+
             // Adding my DbContext                                 
             services.AddDbContext<PeliculasAPIDbContext>(options => 
                 options.UseSqlServer(Configuration.GetConnectionString("defaultConnection")));
@@ -67,16 +73,18 @@ namespace PeliculasAPI
             {
                 options.Filters.Add(typeof(FiltroDeExcepcion));
                 options.Filters.Add(typeof(ParseBadRequest));
+                options.Filters.Add(typeof(ActionFilter2));
             }).ConfigureApiBehaviorOptions(BehaviorBadRequest.Parse);
 
             services.AddCors(options =>
             {
                 string frontendURL = Configuration.GetSection("Logging:frontEnd_url").Get<string>();
 
-                options.AddDefaultPolicy(builder =>
+                options.AddPolicy("DefaultPolicy", builder =>
                 {
                     builder.WithOrigins(frontendURL).AllowAnyMethod().AllowAnyHeader();
                 });
+                
             });
 
             services.AddSwaggerGen(c =>
@@ -100,7 +108,7 @@ namespace PeliculasAPI
 
             app.UseRouting();
 
-            app.UseCors();
+            app.UseCors("DefaultPolicy");            
 
             app.UseAuthentication();
 

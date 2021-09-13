@@ -1,0 +1,15 @@
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.ServiceInfo\bin\Debug\net5.0\PeliculasAPI.ServiceInfo.deps.json
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.ServiceInfo\bin\Debug\net5.0\PeliculasAPI.ServiceInfo.dll
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.ServiceInfo\bin\Debug\net5.0\ref\PeliculasAPI.ServiceInfo.dll
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.ServiceInfo\bin\Debug\net5.0\PeliculasAPI.ServiceInfo.pdb
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.ServiceInfo\bin\Debug\net5.0\PeliculasAPI.Domain.dll
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.ServiceInfo\bin\Debug\net5.0\PeliculasAPI.Domain.pdb
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.ServiceInfo\obj\Debug\net5.0\PeliculasAPI.ServiceInfo.csproj.AssemblyReference.cache
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.ServiceInfo\obj\Debug\net5.0\PeliculasAPI.ServiceInfo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.ServiceInfo\obj\Debug\net5.0\PeliculasAPI.ServiceInfo.AssemblyInfoInputs.cache
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.ServiceInfo\obj\Debug\net5.0\PeliculasAPI.ServiceInfo.AssemblyInfo.cs
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.ServiceInfo\obj\Debug\net5.0\PeliculasAPI.ServiceInfo.csproj.CoreCompileInputs.cache
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.ServiceInfo\obj\Debug\net5.0\PeliculasAPI.ServiceInfo.csproj.CopyComplete
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.ServiceInfo\obj\Debug\net5.0\PeliculasAPI.ServiceInfo.dll
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.ServiceInfo\obj\Debug\net5.0\ref\PeliculasAPI.ServiceInfo.dll
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.ServiceInfo\obj\Debug\net5.0\PeliculasAPI.ServiceInfo.pdb

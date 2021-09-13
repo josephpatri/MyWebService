@@ -1,15 +1,15 @@
 ﻿using AutoMapper;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using PeliculasAPI.DistributedServices.Filtros;
 using PeliculasAPI.DistributedServices.Services.Inter;
-using PeliculasAPI.Domain;
 using PeliculasAPI.Domain.Entidades;
 using PeliculasAPI.Domain.Entidades.DTO;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace PeliculasAPI.Controllers
@@ -17,6 +17,7 @@ namespace PeliculasAPI.Controllers
     [Route("api/generos")]
     [ApiController]
     //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+    [EnableCors()]
     public class GenerosController : ControllerBase
     {              
         private readonly ILogger<GenerosController> logger;
@@ -32,6 +33,7 @@ namespace PeliculasAPI.Controllers
         }
 
         [HttpGet] // api/generos
+        [ActionFilter2]        
         public async Task<ActionResult<List<GeneroDTO>>> Get()
         {
             var generos = await generoService.GetAll();

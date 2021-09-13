@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\PeliculasAPI.DistributedService\PeliculasAPI.DistributedServices.csproj" />
     <ProjectReference Include="..\PeliculasAPI.Domain\PeliculasAPI.Domain.csproj" />
+    <ProjectReference Include="..\PeliculasAPI.ServiceInfo\PeliculasAPI.ServiceInfo.csproj" />
   </ItemGroup>
 
   <ItemGroup>

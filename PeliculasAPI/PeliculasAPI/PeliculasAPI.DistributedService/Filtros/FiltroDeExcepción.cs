@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +21,20 @@ namespace PeliculasAPI.DistributedServices.Filtros
         {
             logger.LogError(context.Exception, context.Exception.Message);
             base.OnException(context);
+        }               
+    }
+    public class ActionFilter2 : ActionFilterAttribute
+    {        
+        public ActionFilter2()
+        {            
+
+        }
+
+        public override void OnActionExecuting(ActionExecutingContext context)
+        {
+            var logger = (ILogger<ActionFilter2>)context.HttpContext.RequestServices.GetService(typeof(ILogger<ActionFilter2>));
+            logger.LogInformation($"Headers: {JsonConvert.SerializeObject(context.HttpContext.Request.Headers, Formatting.Indented)}");
+            base.OnActionExecuting(context);
         }
     }
 }
