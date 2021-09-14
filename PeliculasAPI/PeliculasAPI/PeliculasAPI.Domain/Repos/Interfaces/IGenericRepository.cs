@@ -14,6 +14,8 @@ namespace PeliculasAPI.Domain.Repos.Interfaces
 
         Task<TEntity> GetById(int id);
 
+        IQueryable<TEntity> BuildQuery();
+
         Task<TEntity> Insert(TEntity entity);
 
         Task<TEntity> Update(TEntity entity);

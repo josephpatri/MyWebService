@@ -9,5 +9,6 @@ namespace PeliculasAPI.DistributedServices.Services.Inter
 {
     public interface IGeneroService : IGenericService<Genero>
     {
+        IQueryable<Genero> GetAllGenerosAsQueryable();
     }
 }

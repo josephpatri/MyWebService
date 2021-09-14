@@ -12,7 +12,7 @@ namespace PeliculasAPI.DistributedServices.Services.Inter
 
         Task<TEntity> GetById(int id);
 
-        Task<TEntity> Insert(TEntity entity);
+        Task<TEntity> Insert(TEntity entity);        
 
         Task<TEntity> Update(TEntity entity);
 

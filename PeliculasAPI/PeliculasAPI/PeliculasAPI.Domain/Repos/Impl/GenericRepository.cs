@@ -13,11 +13,16 @@ namespace PeliculasAPI.Domain.Repos.Interfaces
 {
     public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
     {
-        private readonly PeliculasAPIDbContext PeliculasAPIDbContext;
+        private readonly PeliculasAPIDbContext PeliculasAPIDbContext;        
 
         public GenericRepository(PeliculasAPIDbContext _PeliculasAPIDbContext)
         {
-            PeliculasAPIDbContext = _PeliculasAPIDbContext;
+            PeliculasAPIDbContext = _PeliculasAPIDbContext;            
+        }
+
+        public IQueryable<TEntity> BuildQuery()
+        {
+            return PeliculasAPIDbContext.Set<TEntity>().AsQueryable();
         }
 
         public int Count()

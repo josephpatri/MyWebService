@@ -16,5 +16,10 @@ namespace PeliculasAPI.DistributedServices.Services.Impl
         {
             this.generoRepository = _generoRepository;
         }
+
+        public IQueryable<Genero> GetAllGenerosAsQueryable()
+        {
+            return this.generoRepository.BuildQuery();
+        }
     }
 }

@@ -3,13 +3,16 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using PeliculasAPI.DistributedServices.Extensions;
 using PeliculasAPI.DistributedServices.Filtros;
 using PeliculasAPI.DistributedServices.Services.Inter;
 using PeliculasAPI.Domain.Entidades;
 using PeliculasAPI.Domain.Entidades.DTO;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace PeliculasAPI.Controllers
@@ -32,11 +35,12 @@ namespace PeliculasAPI.Controllers
             this.mapper = mapper;
         }
 
-        [HttpGet] // api/generos
-        [ActionFilter2]        
-        public async Task<ActionResult<List<GeneroDTO>>> Get()
+        [HttpGet] // api/generos   
+        public async Task<ActionResult<List<GeneroDTO>>> Get([FromQuery] PaginationDTO pagination)
         {
-            var generos = await generoService.GetAll();
+            var query = generoService.GetAllGenerosAsQueryable();
+            await HttpContext.InsertPaginationHeadersParams(query);
+            var generos = query.OrderBy(x => x.Nombre).Paginate(pagination).ToListAsync();
             return mapper.Map<List<GeneroDTO>>(generos);
 
         }

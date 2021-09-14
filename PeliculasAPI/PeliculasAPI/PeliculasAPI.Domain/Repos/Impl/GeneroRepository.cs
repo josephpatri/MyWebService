@@ -14,5 +14,10 @@ namespace PeliculasAPI.Domain.Repos.Impl.GeneroRepository
         {
 
         }
+
+        public IQueryable<Genero> GetGenerosQuerayble()
+        {
+            return this.BuildQuery();
+        }
     }
 }

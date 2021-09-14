@@ -73,16 +73,17 @@ namespace PeliculasAPI
             {
                 options.Filters.Add(typeof(FiltroDeExcepcion));
                 options.Filters.Add(typeof(ParseBadRequest));
-                options.Filters.Add(typeof(ActionFilter2));
+                //options.Filters.Add(typeof(ActionFilter2));
             }).ConfigureApiBehaviorOptions(BehaviorBadRequest.Parse);
 
             services.AddCors(options =>
             {
                 string frontendURL = Configuration.GetSection("Logging:frontEnd_url").Get<string>();
 
-                options.AddPolicy("DefaultPolicy", builder =>
+                options.AddDefaultPolicy(builder =>
                 {
-                    builder.WithOrigins(frontendURL).AllowAnyMethod().AllowAnyHeader();
+                    builder.WithOrigins(frontendURL).AllowAnyMethod().AllowAnyHeader()
+                    .WithExposedHeaders(new string[] { "totalRecords" });
                 });
                 
             });
@@ -108,9 +109,9 @@ namespace PeliculasAPI
 
             app.UseRouting();
 
-            app.UseCors("DefaultPolicy");            
+            app.UseCors();
 
-            app.UseAuthentication();
+            app.UseAuthentication();            
 
             app.UseAuthorization();
 

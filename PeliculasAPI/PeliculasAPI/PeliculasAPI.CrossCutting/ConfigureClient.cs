@@ -3,7 +3,7 @@ using System;
 
 namespace PeliculasAPI.CrossCutting
 {
-    public static class Class1
+    public static class ConfigureClient
     {
         public static T GetServiceFromHostContext<T>(this IHost server)
         {
