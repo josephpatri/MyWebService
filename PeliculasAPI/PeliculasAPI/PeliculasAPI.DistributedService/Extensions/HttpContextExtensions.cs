@@ -15,7 +15,7 @@ namespace PeliculasAPI.DistributedServices.Extensions
         {
             if (httpContext == null) throw new ArgumentNullException(nameof(httpContext));
             double cuantity = await queryable.CountAsync();
-            httpContext.Response.Headers.Add("totalRecords", cuantity.ToString());
+            httpContext.Response.Headers.Add("totalrecords", cuantity.ToString());
         }
     }
 }

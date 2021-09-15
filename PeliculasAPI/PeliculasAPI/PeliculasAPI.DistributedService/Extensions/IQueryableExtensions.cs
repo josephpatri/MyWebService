@@ -12,7 +12,7 @@ namespace PeliculasAPI.DistributedServices.Extensions
         public static IQueryable<T> Paginate<T>(this IQueryable<T> query, PaginationDTO pagination)
         {
             return query.
-                Skip((pagination.RecordsPage - 1) * pagination.RecordsPage).
+                Skip((pagination.Page - 1) * pagination.RecordsPage).
                 Take(pagination.RecordsPage);
         }
     }

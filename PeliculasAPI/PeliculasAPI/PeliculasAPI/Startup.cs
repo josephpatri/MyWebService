@@ -83,7 +83,7 @@ namespace PeliculasAPI
                 options.AddDefaultPolicy(builder =>
                 {
                     builder.WithOrigins(frontendURL).AllowAnyMethod().AllowAnyHeader()
-                    .WithExposedHeaders(new string[] { "totalRecords" });
+                    .WithExposedHeaders(new string[] { "totalrecords" });
                 });
                 
             });

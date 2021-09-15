@@ -1,4 +1,9 @@
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Test\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Test\obj\Debug\net5.0\PeliculasAPI.Test.csproj.AssemblyReference.cache
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Test\obj\Debug\net5.0\PeliculasAPI.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Test\obj\Debug\net5.0\PeliculasAPI.Test.AssemblyInfoInputs.cache
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Test\obj\Debug\net5.0\PeliculasAPI.Test.AssemblyInfo.cs
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Test\obj\Debug\net5.0\PeliculasAPI.Test.csproj.CoreCompileInputs.cache
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Test\bin\Debug\net5.0\testhost.dll
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Test\bin\Debug\net5.0\PeliculasAPI.deps.json
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Test\bin\Debug\net5.0\PeliculasAPI.runtimeconfig.json
@@ -146,11 +151,6 @@ C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\P
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Test\bin\Debug\net5.0\PeliculasAPI.DistributedServices.pdb
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Test\bin\Debug\net5.0\PeliculasAPI.Domain.pdb
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Test\bin\Debug\net5.0\PeliculasAPI.ServiceInfo.pdb
-C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Test\obj\Debug\net5.0\PeliculasAPI.Test.csproj.AssemblyReference.cache
-C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Test\obj\Debug\net5.0\PeliculasAPI.Test.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Test\obj\Debug\net5.0\PeliculasAPI.Test.AssemblyInfoInputs.cache
-C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Test\obj\Debug\net5.0\PeliculasAPI.Test.AssemblyInfo.cs
-C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Test\obj\Debug\net5.0\PeliculasAPI.Test.csproj.CoreCompileInputs.cache
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Test\obj\Debug\net5.0\PeliculasAPI.Test.csproj.CopyComplete
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Test\obj\Debug\net5.0\PeliculasAPI.Test.dll
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI.Test\obj\Debug\net5.0\ref\PeliculasAPI.Test.dll
