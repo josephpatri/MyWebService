@@ -18,6 +18,11 @@ namespace PeliculasAPI.DistributedServices.Services.Impl
             this.genericRepo = _genericRepo;
         }
 
+        public IQueryable<TEntity> BuidQuery()
+        {
+            return genericRepo.BuildQuery();
+        }
+
         public async Task Delete(int id)
         {
             await genericRepo.Delete(id);

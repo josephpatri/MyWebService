@@ -16,6 +16,9 @@ using PeliculasAPI.DistributedServices.Services.Impl;
 using Refit;
 using PeliculasAPI.ServiceInfo;
 using System.Linq;
+using PeliculasAPI.Context.Domain;
+using PeliculasAPI.Domain.Repos.Impl;
+using PeliculasAPI.Utilities;
 
 namespace PeliculasAPI
 {
@@ -65,8 +68,13 @@ namespace PeliculasAPI
 
             //Repos
             services.AddScoped<IGeneroRepository, GeneroRepository>();
+            services.AddScoped<IActorRepository, ActorRepository>();
             //Service
             services.AddScoped<IGeneroService, GeneroService>();
+            services.AddScoped<IActorService, ActorService>();
+            services.AddTransient<ILocalFileManager, LocalFileManager>();
+
+            services.AddHttpContextAccessor();
 
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer();
             services.AddControllers(options =>
@@ -106,6 +114,8 @@ namespace PeliculasAPI
             }
 
             app.UseHttpsRedirection();
+
+            app.UseStaticFiles();
 
             app.UseRouting();
 

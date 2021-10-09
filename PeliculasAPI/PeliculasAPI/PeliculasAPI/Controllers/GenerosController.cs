@@ -24,8 +24,8 @@ namespace PeliculasAPI.Controllers
     public class GenerosController : ControllerBase
     {
         private readonly ILogger<GenerosController> logger;
-        private readonly IGeneroService generoService;
         private readonly IMapper mapper;
+        private readonly IGeneroService generoService;
 
         public GenerosController(ILogger<GenerosController> logger, IGeneroService generoService,
             IMapper mapper)
@@ -38,7 +38,7 @@ namespace PeliculasAPI.Controllers
         [HttpGet] // api/generos   
         public async Task<ActionResult<List<GeneroDTO>>> Get([FromQuery] PaginationDTO pagination)
         {
-            var query = generoService.GetAllGenerosAsQueryable();
+            var query = generoService.BuidQuery();
             await HttpContext.InsertPaginationHeadersParams(query);
             var generos = await query.OrderBy(x => x.Nombre).Paginate(pagination).ToListAsync();
             return mapper.Map<List<GeneroDTO>>(generos);

@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using PeliculasAPI.Context.Domain;
 using PeliculasAPI.Domain.Repos.Interfaces;
 using System;
 using System.Collections.Generic;

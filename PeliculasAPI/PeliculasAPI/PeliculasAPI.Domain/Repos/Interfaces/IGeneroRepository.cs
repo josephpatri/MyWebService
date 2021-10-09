@@ -9,6 +9,5 @@ namespace PeliculasAPI.Domain.Repos.Interfaces
 {
     public interface IGeneroRepository : IGenericRepository<Genero>
     {
-        IQueryable<Genero> GetGenerosQuerayble();
     }
 }

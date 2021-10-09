@@ -1,10 +1,3 @@
-C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\PeliculasAPI.csproj.AssemblyReference.cache
-C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\PeliculasAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\PeliculasAPI.AssemblyInfoInputs.cache
-C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\PeliculasAPI.AssemblyInfo.cs
-C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\PeliculasAPI.csproj.CoreCompileInputs.cache
-C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\PeliculasAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\PeliculasAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\PeliculasAPI.exe
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\appsettings.json
@@ -63,6 +56,13 @@ C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\P
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\PeliculasAPI.DistributedServices.pdb
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\PeliculasAPI.Domain.pdb
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\bin\Debug\net5.0\PeliculasAPI.ServiceInfo.pdb
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\PeliculasAPI.csproj.AssemblyReference.cache
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\PeliculasAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\PeliculasAPI.AssemblyInfoInputs.cache
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\PeliculasAPI.AssemblyInfo.cs
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\PeliculasAPI.csproj.CoreCompileInputs.cache
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\PeliculasAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\PeliculasAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\staticwebassets\PeliculasAPI.StaticWebAssets.Manifest.cache
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\staticwebassets\PeliculasAPI.StaticWebAssets.xml
 C:\Users\odali\source\repos\josephpatri\MyWebService\PeliculasAPI\PeliculasAPI\PeliculasAPI\obj\Debug\net5.0\scopedcss\bundle\PeliculasAPI.styles.css

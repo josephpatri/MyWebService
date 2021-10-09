@@ -1,4 +1,5 @@
-﻿using PeliculasAPI.Domain.Entidades;
+﻿using PeliculasAPI.Context.Domain;
+using PeliculasAPI.Domain.Entidades;
 using PeliculasAPI.Domain.Repos.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -13,11 +14,6 @@ namespace PeliculasAPI.Domain.Repos.Impl.GeneroRepository
         public GeneroRepository(PeliculasAPIDbContext context) : base(context)
         {
 
-        }
-
-        public IQueryable<Genero> GetGenerosQuerayble()
-        {
-            return this.BuildQuery();
         }
     }
 }

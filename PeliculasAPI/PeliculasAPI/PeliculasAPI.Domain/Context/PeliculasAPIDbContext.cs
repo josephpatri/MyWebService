@@ -2,7 +2,7 @@
 using PeliculasAPI.Domain.Entidades;
 using System;
 
-namespace PeliculasAPI.Domain
+namespace PeliculasAPI.Context.Domain
 {
     public class PeliculasAPIDbContext : DbContext
     {
@@ -12,5 +12,6 @@ namespace PeliculasAPI.Domain
         }
 
         public DbSet<Genero> Generos { get; set; }
+        public DbSet<Actor> Actores { get; set; }
     }
 }
